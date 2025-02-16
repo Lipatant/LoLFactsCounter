@@ -10,13 +10,29 @@
 <body>
     <h1>LoL Facts Counter</h1>
 
-    <p>Your champion:</p>
+    <hr />
+
+    <h2>Enter the champion you're playing:</h2>
 
     <ol class="champion-grid" id="champion-grid-ally"></ol>
 
-    <p>Opponent's champion:</p>
+    <hr />
+
+    <h2>Enter your opponent's champion:</h2>
 
     <ol class="champion-grid" id="champion-grid-enemy"></ol>
+
+    <hr />
+
+    <h2>About your matchup...</h2>
+
+    <div class="matchup-information">
+        <span class="versus">
+            <img class="ally" id="champion-picked-ally" alt="Annie" src="img/champions/icons/default.webp"></img>
+            <span>vs</span>
+            <img class="enemy" id="champion-picked-enemy" alt="Aurelion Sol" src="img/champions/icons/default.webp"></img>
+        </span>
+    </div>
 
     <script src="src/index.js"></script>
 </body>

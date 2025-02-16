@@ -31,6 +31,14 @@ body {
     font-family: "Gill Sans", sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid var(--clr-primary-a50);
+}
+
 .champion-grid {
     line-height: 0;
     margin: 0 auto;
@@ -67,4 +75,25 @@ body {
 
 .champion-grid > li.selected > button:focus > img {
     border-color: var(--clr-primary-a30);
+}
+
+.matchup-information {
+    text-align: center;
+}
+
+.matchup-information > .versus > img {
+    border: 2px solid;
+}
+
+.matchup-information > .versus > img.ally {
+    border-color: cyan;
+}
+
+.matchup-information > .versus > img.enemy {
+    border-color: red;
+}
+
+.matchup-information > .versus > span {
+    font-size: xx-large;
+    font-weight: bold;
 }

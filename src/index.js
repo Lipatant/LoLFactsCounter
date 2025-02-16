@@ -4,6 +4,8 @@ const champions = [
 ];
 const championGridAlly = document.getElementById("champion-grid-ally");
 const championGridEnemy = document.getElementById("champion-grid-enemy");
+const championPickedAlly = document.getElementById("champion-picked-ally")
+const championPickedEnemy = document.getElementById("champion-picked-enemy")
 
 function disableChampionGridElement(championGridElement) {
     championGridElement.classList.remove("selected");
@@ -56,11 +58,21 @@ function selectChampionGridChampion(championGrid, id) {
         }
     }
     championGrid.setAttribute("champion-id", id);
+    if (championGrid == championGridAlly) {
+        setChampionPickedID(championPickedAlly, id)
+    }
+    if (championGrid == championGridEnemy) {
+        setChampionPickedID(championPickedEnemy, id)
+    }
 }
 
 function selectChampionGridElement(championGridElement) {
     let championGrid = championGridElement.parentNode;
     selectChampionGridChampion(championGrid, championGridElement.getAttribute("champion-id"))
+}
+
+function setChampionPickedID(championPicked, id) {
+    championPicked.setAttribute("src", `img/champions/icons/${(id === null) ? "default" : id}.webp`)
 }
 
 const championGridAll = [championGridAlly, championGridEnemy];
