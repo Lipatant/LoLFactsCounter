@@ -93,6 +93,11 @@ hr {
     border-color: red;
 }
 
+.matchup-information > p {
+    font-size: large;
+    padding: 10px;
+}
+
 .matchup-information > .versus > span {
     font-size: xx-large;
     font-weight: bold;
