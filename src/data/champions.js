@@ -293,7 +293,7 @@ const championData = {
     },
     "kayn": {
         "race": "human",
-        "trivia": "After transforming to red form, Karn' name changes to Rhaast."
+        "trivia": "After transforming to red form, Kayn' name changes to Rhaast."
     },
     "kennen": {
         "race": "yordle",
