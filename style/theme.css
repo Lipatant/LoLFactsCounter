@@ -1,0 +1,43 @@
+:root {
+    /** Base colors */
+    --clr-dark-a0: #000000;
+    --clr-light-a0: #ffffff;
+    /** Dark theme primary colors */
+    --clr-primary-a0: #6ba993;
+    --clr-primary-a10: #7cb29e;
+    --clr-primary-a20: #8cbcaa;
+    --clr-primary-a30: #9dc5b6;
+    --clr-primary-a40: #adcfc2;
+    --clr-primary-a50: #bdd8ce;
+    /** Dark theme surface colors */
+    --clr-surface-a0: #121212;
+    --clr-surface-a10: #282828;
+    --clr-surface-a20: #3f3f3f;
+    --clr-surface-a30: #575757;
+    --clr-surface-a40: #717171;
+    --clr-surface-a50: #8b8b8b;
+    /** Dark theme tonal surface colors */
+    --clr-surface-tonal-a0: #1b1f1d;
+    --clr-surface-tonal-a10: #303432;
+    --clr-surface-tonal-a20: #464a48;
+    --clr-surface-tonal-a30: #5e615f;
+    --clr-surface-tonal-a40: #777978;
+    --clr-surface-tonal-a50: #909391;
+}
+
+body {
+    color: var(--clr-primary-a50);
+    background-color: var(--clr-surface-a0);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.champion-grid {
+    line-height: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.champion-grid > li {
+    display: inline-block;
+    vertical-align: top;
+}
