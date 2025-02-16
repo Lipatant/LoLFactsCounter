@@ -6,13 +6,11 @@ const championGridAlly = document.getElementById("champion-grid-ally");
 const championGridEnemy = document.getElementById("champion-grid-enemy");
 
 function disableChampionGridElement(championGridElement) {
-    let button = championGridElement.children[0];
-    button.disabled = false;
+    championGridElement.classList.remove("selected");
 }
 
 function enableChampionGridElement(championGridElement) {
-    let button = championGridElement.children[0];
-    button.disabled = true;
+    championGridElement.classList.add("selected");
 }
 
 function getChampionName(id) {
@@ -46,6 +44,9 @@ function onChampionGridElementClick(event) {
 
 function selectChampionGridChampion(championGrid, id) {
     let championGridChildren = championGrid.children;
+    if (championGrid.getAttribute("champion-id") === id) {
+        id = null;
+    }
     for (let i = 0; i < championGridChildren.length; i++) {
         let championGridElement = championGridChildren[i];
         if (championGridElement.getAttribute("champion-id") === id) {

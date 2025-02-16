@@ -52,6 +52,19 @@ body {
     outline: inherit;
 }
 
-.champion-grid > li > button:enabled > img {
-    filter: grayscale(100%);
+.champion-grid > li > button > img {
+    border: 2px solid;
+    border-color: var(--clr-surface-tonal-a20);
+}
+
+.champion-grid > li > button:focus > img {
+    border-color: var(--clr-surface-tonal-a50);
+}
+
+.champion-grid > li.selected > button > img {
+    border-color: var(--clr-primary-a0);
+}
+
+.champion-grid > li.selected > button:focus > img {
+    border-color: var(--clr-primary-a30);
 }
