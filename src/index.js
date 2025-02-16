@@ -47,7 +47,13 @@ function getMatchupInformationFact(idAlly, idEnemy) {
                 ["akali", "kayn"], "Akali finds Kayn hot."
             ],
             [
+                ["akali", "shen"], "Shen is Akali's mentor."
+            ],
+            [
                 ["anivia", "ornn", "volibear"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are siblings.`
+            ],
+            [
+                ["ashe", "tryndamere"], "@https://www.youtube.com/embed/GQd9fInsyTk?si=3sXvA8LchOZeQiPJ&amp;start=46"
             ],
             [
                 ["aurelion_sol", "pantheon"], "Aurelion Sol once killed Pantheon."
@@ -57,6 +63,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
             ],
             [
                 ["azir", "sivir"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are related.`
+            ],
+            [
+                ["azir", "xerath"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} were friends.`
             ],
             [
                 ["belveth", "malzahar"], "Bel'Veth controls Malzahar."
@@ -203,6 +212,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
                 ["kindred", "jhin"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} were made from the same champion concept.`
             ],
             [
+                ["kindred", "yorick"], "Yorick can always see Kindred."
+            ],
+            [
                 ["jinx", "vi"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are siblings.`
             ],
             [
@@ -210,6 +222,12 @@ function getMatchupInformationFact(idAlly, idEnemy) {
             ],
             [
                 ["lucian", "senna"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are lovers.`
+            ],
+            [
+                ["lucian", "thresh"], "Thresh kidnapped Lucian's wife, Senna."
+            ],
+            [
+                ["master_yi", "wukong"], "Master Yi is Wukong's mentor."
             ],
             [
                 ["mordekaiser", "rell"], "Rell was trained by the Black Rose to defeat Mordekaiser."
@@ -233,10 +251,31 @@ function getMatchupInformationFact(idAlly, idEnemy) {
                 ["rakan", "xayah"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are lovers.`
             ],
             [
+                ["riven", "yasuo"], "Yasuo is trying to find Riven in Noxus."
+            ],
+            [
                 ["rumble", "warwick"], "Hyena Warwick can be seen in the background of Badlands Baron Rumble."
             ],
             [
+                ["senna", "thresh"], "Thresh kidnapped Senna."
+            ],
+            [
+                ["shen", "zed"], "Zed kissed Yevnai, Shen's fiancé."
+            ],
+            [
+                ["singed", "warwick"], "Singed created Warwick."
+            ],
+            [
                 ["taliyah", "yasuo"], "Yasuo was Taliyah's mentor."
+            ],
+            [
+                ["teemo", "tristana"], "Tristana has a crush on Teemo."
+            ],
+            [
+                ["vex", "viego"], "Vex has a crush on Viego."
+            ],
+            [
+                ["viego", "vladimir"], "Vladimir is Viego's uncle."
             ],
             [
                 ["yasuo", "yone"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are siblings.`

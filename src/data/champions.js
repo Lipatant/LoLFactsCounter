@@ -616,8 +616,158 @@ const championData = {
         "race": "human",
         "trivia": "Taliyah became a stone weaver at 6."
     },
+    "talon": {
+        "race": "human",
+        "trivia": "Talon's dance is a reference to Billie Jean by Michael Jackson."
+    },
+    "taric": {
+        "race": "aspect",
+        "trivia": "#img/comics/taric.webp"
+    },
     "teemo": {
         "race": "yordle",
         "trivia": "Vade retro Satanas."
+    },
+    "thresh": {
+        "race": "undead",
+        "trivia": "Thresh was once a guardian whose honour was rolled into the mud."
+    },
+    "tristana": {
+        "race": "yordle",
+        "trivia": "Tristana's passive is 100% useless at level 1."
+    },
+    "trundle": {
+        "race": "troll",
+        "trivia": "Trundle's dance scales with Movement Speed."
+    },
+    "tryndamere": {
+        "race": "human",
+        "trivia": "Tryndamere was named after Rioter Marc Merrill."
+    },
+    "twisted_fate": {
+        "name": "Twisted Fate",
+        "race": "human",
+        "trivia": "Twisted Fate's real name is Tobias Felix."
+    },
+    "twitch": {
+        "race": "rat",
+        "trivia": "RATIRL only discovered recently that you could get a Twitch skin from honour."
+    },
+    "udyr": {
+        "race": "human",
+        "trivia": "Spirit Guard Udyr represents Udyr while he was in Ionia."
+    },
+    "urgot": {
+        "race": "human",
+        "trivia": "Giant Enemy Urgot references Kaiju monsters."
+    },
+    "varus": {
+        "race": "darkin",
+        "trivia": "Varus is actually 3 people in 1 body."
+    },
+    "vayne": {
+        "race": "human",
+        "trivia": "Vayne kills magical creatures with magical weapons."
+    },
+    "veigar": {
+        "race": "yordle",
+        "trivia": "Veigar is trying to be evil, but is very bad at it."
+    },
+    "velkoz": {
+        "name": "Vel'Koz",
+        "race": "void_born",
+        "trivia": "Vel'Koz learns about the world by disintegrating it."
+    },
+    "vex": {
+        "race": "yordle",
+        "trivia": "Vex is sad because, as a Yordle, she cannot die."
+    },
+    "viego": {
+        "nicknames": {
+            "nilah": "Old Camavor's Evil"
+        },
+        "race": "undead",
+        "trivia": "Viego's weapon, the Blade of the Ruined King, is named Sanctity."
+    },
+    "viktor": {
+        "race": "human",
+        "trivia": "Viktor used to have 4 unique items called the Hex Cores."
+    },
+    "vladimir": {
+        "nicknames": {
+            "briar": "Dad",
+            "mordekaiser": "A stain splattered in the pages of history",
+            "samira": "Bloodsucker",
+        },
+        "race": "human",
+        "trivia": "Vladimir's magic is called Hemomancy."
+    },
+    "volibear": {
+        "race": "spirit",
+        "trivia": "Volibear doesn't like humans to live comfortably."
+    },
+    "warwick": {
+        "race": "human",
+        "trivia": "Warwick's old lore was about him turning himself into a wolf-life creature."
+    },
+    "wukong": {
+        "race": "vastaya",
+        "trivia": "Most of Wukong's concept is based on Sun Wukong's story from Journey to the West."
+    },
+    "xayah": {
+        "race": "vastaya",
+        "trivia": "Xayah does not lay eggs."
+    },
+    "xerath": {
+        "race": "ascended",
+        "trivia": "Xerath is considered a Baccai, a term used by Shurimans for Ascended that aren't worthy of being called God-Warriors."
+    },
+    "xin_zhao": {
+        "name": "Xin Zhao",
+        "race": "human",
+        "trivia": "Xin Zhao thinks he's responsible for Jarvan III's death since he wasn't there to protect him."
+    },
+    "yasuo": {
+        "race": "human",
+        "trivia": "The Chibi Yasuo from Teamfight Tactics shows his Mastery 7 as an emote."
+    },
+    "yone": {
+        "race": "revenant",
+        "trivia": "Yone was first a card in Legends of Runeterra before becoming a champion in League of Legends."
+    },
+    "yorick": {
+        "race": "human",
+        "trivia": "Yorick's ghouls are called Mist Walkers."
+    },
+    "yuumi": {
+        "race": "spirit",
+        "trivia": "Yuumi is a mistake."
+    },
+    "zac": {
+        "race": "golem",
+        "trivia": "Zac's sound effects were made with a mix of dog food and beans inside a condom, slapped against a wall."
+    },
+    "zed": {
+        "race": "human",
+        "trivia": "Zed's shadows are merely perceptions of his technique."
+    },
+    "zeri": {
+        "race": "human",
+        "trivia": "Zeri's gun doesn't have a trigger or a magasine. It's only powered by her electricity."
+    },
+    "ziggs": {
+        "race": "yordle",
+        "trivia": "Ziggs' real name is Zigmund."
+    },
+    "zilean": {
+        "race": "human",
+        "trivia": "Zilean is at least 3500 years old."
+    },
+    "zoe": {
+        "race": "aspect",
+        "trivia": "Despite being an Aspect, Zoe never climbed Mount Targon."
+    },
+    "zyra": {
+        "trivia": "During her development, Zyra was named Izara, Xara, Xyra and Azalea."
     }
 }
