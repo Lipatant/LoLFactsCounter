@@ -41,3 +41,17 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+
+.champion-grid > li > button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    line-height: inherit;
+    padding: 0;
+    outline: inherit;
+}
+
+.champion-grid > li > button:enabled > img {
+    filter: grayscale(100%);
+}
