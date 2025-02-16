@@ -72,6 +72,7 @@ function selectChampionGridElement(championGridElement) {
 }
 
 function setChampionPickedID(championPicked, id) {
+    championPicked.setAttribute("alt", (id === null) ? "None" : getChampionName(id))
     championPicked.setAttribute("src", `img/champions/icons/${(id === null) ? "default" : id}.webp`)
 }
 
