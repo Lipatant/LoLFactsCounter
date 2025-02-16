@@ -385,6 +385,7 @@ const championData = {
         "trivia": "In french, Milio references La terre est ronde by Orelsan."
     },
     "miss_fortune": {
+        "name": "Miss Fortune",
         "nicknames": {
             "graves": "Missy Fortune"
         },
