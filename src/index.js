@@ -30,7 +30,7 @@ function makeChampionGridElement(id) {
     let element = document.createElement("li");
     let elementButton = document.createElement("button");
     elementButton.addEventListener("click", onChampionGridElementClick);
-    elementButton.innerHTML = `<img alt="${getChampionName(id)}" src="img/champions/${id}.webp"></img>`;
+    elementButton.innerHTML = `<img alt="${getChampionName(id)}" src="img/champions/icons/${id}.webp"></img>`;
     element.appendChild(elementButton);
     element.setAttribute("champion-id", id);
     return element;
