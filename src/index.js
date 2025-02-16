@@ -56,6 +56,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
                 ["aurora", "ornn"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are friends.`
             ],
             [
+                ["azir", "sivir"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are related.`
+            ],
+            [
                 ["belveth", "malzahar"], "Bel'Veth controls Malzahar."
             ],
             [
@@ -75,6 +78,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
             ],
             [
                 ["cassiopeia", "katarina", "talon"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are from the same family.`
+            ],
+            [
+                ["cassiopeia", "sivir"], "Cassiopeia tried to kill Sivir, causing the return of Azir."
             ],
             [
                 ["darius", "draven"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are siblings.`
@@ -164,6 +170,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
                 ["graves", "twisted_fate"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are lovers.`
             ],
             [
+                ["gwen", "senna"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} both have a fragment of Isolde, Viego's wife.`
+            ],
+            [
                 ["gwen", "viego"], "Gwen was made by Isolde, Viego's wife."
             ],
             [
@@ -177,6 +186,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
             ],
             [
                 ["jarvan_iv", "shyvana"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are lovers.`
+            ],
+            [
+                ["jarvan_iv", "sion"], `Sion killed Jarvan I.`
             ],
             [
                 ["kaisa", "kassadin"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are friends.`
@@ -222,6 +234,9 @@ function getMatchupInformationFact(idAlly, idEnemy) {
             ],
             [
                 ["rumble", "warwick"], "Hyena Warwick can be seen in the background of Badlands Baron Rumble."
+            ],
+            [
+                ["taliyah", "yasuo"], "Yasuo was Taliyah's mentor."
             ],
             [
                 ["yasuo", "yone"], `${getChampionName(idAlly)} and ${getChampionName(idEnemy)} are siblings.`

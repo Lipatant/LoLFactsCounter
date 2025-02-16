@@ -19,7 +19,7 @@ const championData = {
             "graves": "Shirtless wonder"
         },
         "race": "human",
-        "trivia": "Akshan calls his boomerang 'Avengerang'."
+        "trivia": "Akshan calls his boomerang Avengerang."
     },
     "alistar": {
         "race": "minotaur",
@@ -214,7 +214,7 @@ const championData = {
             "jinx": "Professorface"
         },
         "race": "yordle",
-        "trivia": "While his R is active, Heimerdinger gets a buff that reads 'Harder, Better, Faster, Stronger'."
+        "trivia": "While his R is active, Heimerdinger gets a buff that reads Harder, Better, Faster, Stronger."
     },
     "hwei": {
         "race": "human",
@@ -533,6 +533,88 @@ const championData = {
     "samira": {
         "race": "human",
         "trivia": "One of Samira's emote can deal 1 true damage to an enemy."
+    },
+    "sejuani": {
+        "race": "human",
+        "trivia": "Sejuani is the champion that has received the quickest game play update with 1 year and 3 months after release."
+    },
+    "senna": {
+        "race": "undead",
+        "trivia": "Senna was born on an island close to Demacia, but she isn't Demacian herself."
+    },
+    "seraphine": {
+        "nicknames": {
+            "renata_glasc": "Traitor",
+        },
+        "race": "human",
+        "trivia": "Senna's dance is a reference to Dance Dance Revolution"
+    },
+    "sett": {
+        "trivia": "Sett really likes his mother."
+    },
+    "shaco": {
+        "trivia": "Shaco's W activation ability is called Pop Goes the Weasel."
+    },
+    "shen": {
+        "race": "human",
+        "trivia": "Shen was the first champion to use energy as a resource."
+    },
+    "shyvana": {
+        "race": "dragon",
+        "trivia": "Shyvana killed her mother Shyva."
+    },
+    "singed": {
+        "race": "human",
+        "trivia": "Singed was inspired by the chemist Fritz Haber."
+    },
+    "sion": {
+        "race": "revenant",
+        "trivia": "Sion used to be able to perform a decent dash by using his E onto a minion before using Prowler's Claw onto it."
+    },
+    "sivir": {
+        "race": "human",
+        "trivia": "Sivir's weapon, called the Chalicar, was once owned by a God-Warrior queen named Setaka."
+    },
+    "skarner": {
+        "race": "brackern",
+        "trivia": "Having a Skarner in the game used to spawn crystals on the map that could be captured by any of the teams."
+    },
+    "smolder": {
+        "race": "dragon",
+        "trivia": "Smolder's taunt can sometimes be replaced with 'Well, my mom works for Riot, and she's gonna ban you!'."
+    },
+    "sona": {
+        "race": "human",
+        "trivia": "Sona can make people dance so hard their bones break."
+    },
+    "soraka": {
+        "nicknames": {
+            "aurelion_sol": "Command the stars",
+            "pantheon": "The Seer",
+            "tahm_kench": "Child"
+        },
+        "race": "celestial",
+        "trivia": "Soraka's body is constantly burning, which is reflected in her in-game W health cost."
+    },
+    "swain": {
+        "race": "human",
+        "trivia": "Swain was the once that separated Noxus' power into the Trifarix."
+    },
+    "sylas": {
+        "race": "human",
+        "trivia": "Sylas has a specific animation for canceling his Recall."
+    },
+    "syndra": {
+        "race": "human",
+        "trivia": "Syndra killed all of the teacher that tried to teach her how to use her magic."
+    },
+    "tahm_kench": {
+        "race": "demon",
+        "trivia": "@https://www.youtube.com/embed/WcjDBRW7mL4?si=NandWEQGwxKeJDQw"
+    },
+    "taliyah": {
+        "race": "human",
+        "trivia": "Taliyah became a stone weaver at 6."
     },
     "teemo": {
         "race": "yordle",
